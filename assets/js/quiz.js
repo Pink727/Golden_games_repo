@@ -18,8 +18,7 @@ const questions = [
         options: ["France", "USA", "Japan", "UK"],
         answer: "France"
     },
-    
-    
+        
     {
         question: "How many sports will be featured in the 2024 Olympics?",
         options: ["28", "32", "33", "35"],
@@ -136,8 +135,9 @@ function calculateScore() {
     resultContainer.appendChild(correctAnswersList);
 
     const score = (correctAnswers / questions.length) * 100;
+    const roundedScore = Math.round(score);
     const scoreText = document.createElement('p');
-    scoreText.textContent = `You scored ${score}%`;
+    scoreText.textContent = `You scored ${roundedScore}%`;
     resultContainer.appendChild(scoreText);
 
     resultContainer.classList.remove('hidden');
