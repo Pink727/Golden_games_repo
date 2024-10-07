@@ -1,7 +1,6 @@
 document.getElementById('start-quiz-button').addEventListener('click', startQuiz);
 document.getElementById('next-button').addEventListener('click', showNextQuestion);
 document.getElementById('submit-button').addEventListener('click', submitQuiz);
-
 const questions = [
     {
         question: "Where will the 2024 Olympics be held?",
@@ -18,8 +17,6 @@ const questions = [
         options: ["France", "USA", "Japan", "UK"],
         answer: "France"
     },
-    
-    
     {
         question: "How many sports will be featured in the 2024 Olympics?",
         options: ["28", "32", "33", "35"],
@@ -50,18 +47,19 @@ const questions = [
         options: ["10,500", "11,000", "12,000", "13,000"],
         answer: "10,500"
     }
-  
 ];
 
 let currentQuestionIndex = 0;
 let userAnswers = [];
 
-
+///Starts the quiz by displaying the quiz popup and showing the first question.
 
 function startQuiz() {
     document.getElementById('quiz-popup').classList.remove('hidden');
     showQuestion();
 }
+
+///Displays the current question and its options in the question container.
 
 function showQuestion() {
     const questionContainer = document.getElementById('question-container');
@@ -91,7 +89,7 @@ function showQuestion() {
     document.getElementById('submit-button').classList.toggle('hidden', currentQuestionIndex !== questions.length - 1);
 }
 
-// Removed duplicate functions
+/// Advances to the next question if an option is selected, otherwise alerts the user.
 function showNextQuestion() {
     const selectedOption = document.querySelector('input[name="option"]:checked');
     if (selectedOption) {
@@ -105,6 +103,8 @@ function showNextQuestion() {
     }
 }
 
+///Submits the quiz, saves the user's answers, and calculates the score.
+
 function submitQuiz() {
     const selectedOption = document.querySelector('input[name="option"]:checked');
     if (selectedOption) {
@@ -116,6 +116,7 @@ function submitQuiz() {
     }
 }
 
+/// Calculates the user's score and displays the results. 
 function calculateScore() {
     let correctAnswers = 0;
     userAnswers.forEach((answer, index) => {

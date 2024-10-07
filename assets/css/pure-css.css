@@ -188,7 +188,10 @@ html {
     flex-flow: row wrap;
     align-content: flex-start
 }
-
+img.pure-img-responsive {
+    max-height: 400px;
+    width: auto;
+}
 .pure-u {
     display: inline-block;
     vertical-align: top

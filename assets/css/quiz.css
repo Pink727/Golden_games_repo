@@ -31,3 +31,7 @@ button {
     padding: 10px 20px;
     margin: 5px;
 }
+#start-quiz-button {
+    display: block;
+    margin: 0 auto;
+}

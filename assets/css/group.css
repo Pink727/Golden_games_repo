@@ -1,0 +1,13 @@
+header {
+    background-image: url('/assets/img/Golden\ Games\ LOGO.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+}
+
+header h2 {
+    margin-top: 320px; /* Adjust this value as needed */
+    text-align: center;
+}
+
