@@ -30,3 +30,9 @@ Adding more pages to include new quizzes and specific fun facts based on the Oly
 
 ## page layout
 https://purecss.io/layouts/side-menu/#home
+
+## Credits
+Kevin: CSS, HTML 
+Dee: JS, HTML 
+Avi: CSS, HTML 
+Wade: HTML, JS
