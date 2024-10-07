@@ -11,3 +11,7 @@ header h2 {
     text-align: center;
 }
 
+#info img {
+    border-radius: 15px; /* Adjust the value for more or less rounding */
+    max-height: 200px; /* Adjust the value as needed */
+}
