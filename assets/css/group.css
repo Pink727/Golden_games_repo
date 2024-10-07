@@ -1,5 +1,5 @@
 header {
-    background-image: url('/assets/img/Golden\ Games\ LOGO.png');
+    background-image: url('./assets/img/Golden\ Games\ LOGO.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
