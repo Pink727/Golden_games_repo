@@ -29,11 +29,12 @@ Adding more pages to include new quizzes and specific fun facts based on the Oly
 # Info Page
 ![info](./assets/img/info.PNG)
 ## Links
-
+ 
  https://pink727.github.io/Golden_games_repo/
 
 
 ## page layout
+The Main CSS style file is from PureCSS
 https://purecss.io/layouts/side-menu/#home
 
 ## Credits
