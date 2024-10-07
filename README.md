@@ -22,8 +22,12 @@ Updating HTML to include events that happen in future Olympics
 Adding animations to add more life to the page
 Adding more pages to include new quizzes and specific fun facts based on the Olympic sports
 
-
-
+# Home page
+![home](./assets/img/index.PNG)
+# Quiz page
+![quiz](./assets/img/quiz.PNG)
+# Info Page
+![info](./assets/img/info.PNG)
 ## Links
 
  https://pink727.github.io/Golden_games_repo/
