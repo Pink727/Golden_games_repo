@@ -29,7 +29,7 @@ Adding more pages to include new quizzes and specific fun facts based on the Oly
 # Info Page
 ![info](./assets/img/info.PNG)
 ## Links
- 
+ https://docs.google.com/presentation/d/1QI9Zhus1sjq3EGEB752fUTvuv-yBBSeqW-TWw29S-ic/edit?usp=sharing
  https://pink727.github.io/Golden_games_repo/
 
 
