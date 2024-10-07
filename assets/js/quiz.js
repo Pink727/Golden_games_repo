@@ -1,6 +1,7 @@
 document.getElementById('start-quiz-button').addEventListener('click', startQuiz);
 document.getElementById('next-button').addEventListener('click', showNextQuestion);
 document.getElementById('submit-button').addEventListener('click', submitQuiz);
+const errorElement = document.getElementById('error-message');
 const questions = [
     {
         question: "Where will the 2024 Olympics be held?",
@@ -96,10 +97,12 @@ function showNextQuestion() {
         userAnswers[currentQuestionIndex] = selectedOption.value;
         currentQuestionIndex++;
         if (currentQuestionIndex < questions.length) {
+            errorElement.textContent = "";
             showQuestion();
         }
     } else {
-        alert('Please select an option.');
+        errorElement.textContent = "Please select an option.";
+        
     }
 }
 
@@ -112,7 +115,8 @@ function submitQuiz() {
         localStorage.setItem('userAnswers', JSON.stringify(userAnswers));
         calculateScore();
     } else {
-        alert('Please select an option.');
+        errorElement.textContent = "Please select an option.";
+        
     }
 }
 
