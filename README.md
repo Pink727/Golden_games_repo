@@ -10,7 +10,7 @@ i want random fun facts about the history of the Olympics
 
 # Links
 
-https://docs.google.com/presentation/d/1ma7qQ67YxlmkQGSVzu7wPI4CyMNnkVUEsklal0FwQwE/edit#slide=id.g29f43f0a72_0_24
+ https://pink727.github.io/Golden_games_repo/
 
 
 # page layout
