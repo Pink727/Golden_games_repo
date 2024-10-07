@@ -7,11 +7,11 @@ header {
 }
 
 header h2 {
-    margin-top: 320px; /* Adjust this value as needed */
+    margin-top: 320px; 
     text-align: center;
 }
 
 #info img {
-    border-radius: 15px; /* Adjust the value for more or less rounding */
-    max-height: 200px; /* Adjust the value as needed */
+    border-radius: 15px;
+    max-height: 200px; 
 }
